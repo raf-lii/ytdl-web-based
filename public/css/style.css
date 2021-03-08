@@ -1,0 +1,13 @@
+h1.title-content {
+    font-size:100px;
+}
+
+.card {
+    margin-top: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-heading {
+    display: block !important;
+}
