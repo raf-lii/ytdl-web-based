@@ -4,6 +4,8 @@ const cors = require('cors');
 var path = require('path');
 const ytdl = require('ytdl-core')
 
+const PORT = process.env.PORT || 4000;
+
 app.use(cors());
 
 //views enggine set
@@ -11,7 +13,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 //server
-app.listen(3000, (req, res) => {
+app.listen(PORT, (req, res) => {
     console.log("Server Running On Port 3000")
 })
 
